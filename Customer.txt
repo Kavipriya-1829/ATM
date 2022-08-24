@@ -1,0 +1,93 @@
+package atmproject;
+public class Customer {
+	
+	
+	private int Accno;
+	private String CustName;
+	private long CustMobileno;
+	private String AccType;
+	private String CustAddress;
+	
+	
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Customer(int Accno, String CustName, long CustMobileno, String AccType, String CustAddress) {
+		super();
+		this.Accno = Accno;
+		this.CustName = CustName;
+		this.CustMobileno = CustMobileno;
+		this.AccType = AccType;
+		this.CustAddress = CustAddress;
+	}
+
+
+	public int getAccno() {
+		return Accno;
+	}
+
+
+	public void setAccno(int accno) {
+		Accno = accno;
+	}
+
+
+	public String getCustName() {
+		return CustName;
+	}
+
+
+	public void setCustName(String custName) {
+		CustName = custName;
+	}
+
+
+	public long getCustMobileno() {
+		return CustMobileno;
+	}
+
+
+	public void setCustMobileno(long CustMobileno) {
+		CustMobileno = CustMobileno;
+	}
+
+
+	public String getAccType() {
+		return AccType;
+	}
+
+
+	public void setAccType(String accType) {
+		AccType = accType;
+	}
+
+
+	public String getCustAddress() {
+		return CustAddress;
+	}
+
+
+	public void setCustAddress(String custAddress) {
+		CustAddress = custAddress;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Cust [Accno=" + Accno + ", CustName=" + CustName + ", CustMobileno=" + CustMobileno + ", AccType="
+				+ AccType + ", CustAddress=" + CustAddress + ", getAccno()=" + getAccno() + ", getCustName()="
+				+ getCustName() + ", getCustMobileno()=" + getCustMobileno() + ", getAccType()=" + getAccType()
+				+ ", getCustAddress()=" + getCustAddress() + "]";
+	}
+
+
+	
+	
+	
+	
+	
+
+}
